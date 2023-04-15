@@ -124,7 +124,7 @@ font-style: bold;
     height: 20%;
     margin-left: 5%;
     margin-right: 0;
-    border: 2px solid rgb(134,164,53);
+    border: 2px solid ;
     border-radius: 10px;
     padding-top: 25px;
     margin-bottom: 2%;
@@ -309,16 +309,19 @@ width: 100%;
     background-color: #141414;
   }
 
-  #paginas{
+
+  .paginas{
     width: 40%;
-margin-left: 7%;
+margin-left: 5%;
 margin-top: 2%;
 margin-bottom: 2%;
+margin-right: 5%;
 
   }
+  
   #paginas-foto{
     width: 100%;
-    padding: 30px solid white;
+
     border-radius: 5px;
   }
   #porfolio h1{
@@ -514,7 +517,7 @@ footer a{
      #container{
       display: inline-block;
      }
-     #paginas{
+     .paginas{
       width: 100%;
       margin: auto;
       margin-top: 10px;
