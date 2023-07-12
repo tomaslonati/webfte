@@ -9,9 +9,33 @@ body{
     width: 100%;
     background-color: #000000;
     font-family: 'Sora', sans-serif;
+    color: white;
 
 }
-
+.paginas h3{
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.paginas a{
+  text-decoration: none;
+}
+.paginas p{
+  font-weight: 200;
+  margin-bottom: 15px;
+}
+.botoni{
+  border: 2px solid rgb(134,164,53);
+  color: rgb(134,164,53);
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 10px;
+}
+.botoni:hover{
+  background-color: rgb(59, 59, 59);
+}
 #header{
     display: flex;
     align-items: center;
@@ -88,7 +112,7 @@ font-size: 22px;
   align-items: center;
   align-content: center;
   background-color: black;
-  height: 100vh;
+
 
 }
 #texto
@@ -179,6 +203,7 @@ max-width: 700px;
     width: 100%;
     margin: 0 auto;
     position: relative;
+
   }
   
   #contact input[type="text"],
@@ -306,7 +331,7 @@ width: 100%;
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
-    background-color: #141414;
+    flex-wrap: wrap;
   }
 
 
@@ -336,7 +361,6 @@ margin-right: 5%;
    margin-right: 5%;
    margin-top: 5%;
    text-align: center;
-   background-color: #141414;
   }
 
   #wpp-float{
